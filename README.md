@@ -1,7 +1,3 @@
-# nlp-sql-generator
-Here's the complete `README.md` file for your project:
-
-````markdown
 # Multi-Database SQL Generator App
 
 This is a Streamlit web application that generates natural language-to-SQL queries across multiple SQLite databases using OpenAI's GPT models. Users can explore and query predefined databases (`school.db`, `hospital.db`, and `ecommerce.db`) with ease through an intuitive interface.
@@ -14,7 +10,6 @@ This is a Streamlit web application that generates natural language-to-SQL queri
 - 🗃️ **Multi-Database Support**: Choose from different domains—School, Hospital, and E-commerce.
 - 📄 **Live Preview**: View table schemas before querying.
 - 🧠 **AI-Powered**: Integrates with OpenAI's GPT model for query generation.
-- 🎲 **Fake Data Generator**: Populate databases with synthetic data using Faker.
 
 ---
 
@@ -22,16 +17,18 @@ This is a Streamlit web application that generates natural language-to-SQL queri
 
 ```bash
 .
-├── app.py                 # Main Streamlit application
-├── database_creator.py    # Script to generate the SQLite databases
-├── database_schemas.py    # Predefined schemas for each domain
-├── sql_generator.py       # GPT-powered SQL generator logic
-├── requirements.txt       # List of Python dependencies
-├── README.md              # This documentation file
-├── school.db              # SQLite DB for school domain
-├── hospital.db            # SQLite DB for hospital domain
-└── ecommerce.db           # SQLite DB for e-commerce domain
-````
+├── app.py              
+├── sql_generator.py     
+├── database_schemas.py  
+├── database_creator.py  
+├── databases/          
+│   ├── ecommerce.db
+│   ├── hospital.db
+│   └── school.db
+├── requirements.txt
+└── README.md
+```
+
 
 ---
 
@@ -105,7 +102,7 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## 👨‍💻 Author
 
-Developed by \[Your Name] — AI-powered SQL tool for rapid data interaction.
+Developed by \[Saeed Abokhatwa] — AI-powered SQL tool for rapid data interaction.
 
 ---
 

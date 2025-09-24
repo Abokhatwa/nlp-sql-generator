@@ -193,20 +193,4 @@ LLM_natural_sql/
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
-
-- OpenAI for providing the GPT-4 API
-- Streamlit for the web interface framework
-- Django for the REST API framework
-- The open-source community for various supporting libraries
-
-## 📞 Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the documentation in the code comments
-- Review the example queries for guidance
-
----
-
 **Note**: This project requires an OpenAI API key to function. Make sure to set up your API key in the `.env` file before running the application.
